@@ -1,0 +1,35 @@
+# Core tools
+brew "neovim"
+brew "git"
+brew "gh"
+brew "mise"
+brew "chezmoi"
+
+# Shell & prompt
+brew "starship"
+brew "fzf"
+
+# Modern CLI replacements
+brew "eza"       # ls
+brew "bat"       # cat
+brew "fd"        # find
+brew "ripgrep"   # grep
+brew "git-delta" # git diff
+brew "tlrc"      # tldr (maintained fork)
+
+# Utilities
+brew "jq"        # JSON
+brew "yq"        # YAML
+brew "tree"      # directory tree
+brew "htop"      # process monitor
+brew "wget"      # downloads
+brew "yazi"      # file manager
+
+# Kubernetes
+brew "kubernetes-cli"
+brew "helm"
+brew "derailed/k9s/k9s"
+
+# Terminal & window management
+cask "wezterm"
+cask "rectangle"
