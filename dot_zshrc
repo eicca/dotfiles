@@ -39,9 +39,6 @@ for f in zvm_backward_kill_region zvm_yank zvm_replace_selection zvm_change_surr
   eval "$f() { _$f \"\$@\"; echo -en \$CUTBUFFER | pbcopy }"
 done
 
-# broot
-source /Users/mikhail.dyakov/.config/broot/launcher/bash/br
-
 # fzf (Ctrl+R for history, Ctrl+T for files, Alt+C for cd)
 # Must be initialized after zsh-vi-mode
 zvm_after_init() {
