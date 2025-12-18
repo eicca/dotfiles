@@ -1,0 +1,16 @@
+# Starship configuration
+
+[aws]
+disabled = true
+
+[gcloud]
+disabled = true
+
+[python]
+format = '[🐍$version( $virtualenv)]($style) '
+
+[package]
+disabled = true
+
+[git_status]
+disabled = true
